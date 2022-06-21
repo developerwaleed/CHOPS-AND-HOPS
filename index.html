@@ -3,10 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Capstone</title>
   <script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
   <body>
     <main>
+      <!-- header -->
       <header>
         <nav class="main-navbar">
           <div class="list-logo">
@@ -20,40 +28,18 @@
         </nav>
       </header>
 
+      <!-- main-page -->
 
+      <section class="grid-div"></section>
 
-
-      <!-- Comment pop up Start -->   
-      <div class="btn">
-        <button id="open-comment-modal">Hello</button>
-
+      <!-- Comment pop up Start -->
       <section class="comment-modal" id="comment-modal">
-        <button type="button" class="close-btn" id="closebtn">
-          &times;
-        </button>
-        <div class="product-info">
-          <div class="image"><img id="product-img" alt=""></div>
-          <div class="title"></div>
-          <div class="product-desc"></div>
-        </div>
-        <div class="comments">
-          <div class="fetch-comments"></div>
-        </div>
-        <div class="add-comment">
-          <form id="add-comment-form" action="./">
-            <input type="text" placeholder="Your Name" />
-            <textarea
-              id="textBox"
-              name="textBox"
-              maxlength="200"
-              placeholder="Your insights"
-            ></textarea>
-          </form>
-        </div>
-      </section>
+       <!-- Fetching data from JS -->
+      </section> 
       <div id="overlay"></div>
       <!-- Comment pop up END-->
 
+      <!-- footer -->
       <footer>
         <p>Created by Safar&Waleed under cc license</p>
       </footer>
