@@ -1,2 +1,6 @@
 import './style.css';
-import './js/commentSection.js'
+import fetchItems from './js/fetchitems.js';
+
+window.onload = () => {
+  fetchItems();
+};

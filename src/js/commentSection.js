@@ -1,22 +1,21 @@
-import photo from '../assets/photo.jpg';
+import fetchData from './getDataFromId.js';
 
-const openComment = document.getElementById('open-comment-modal');
 const appearModel = document.getElementById('comment-modal');
 const deskModal = document.getElementById('comment-modal');
 const Deskoverlay = document.getElementById('overlay');
-const closeBtn = document.getElementById('closebtn');
-const productImg = document.getElementById('product-img');
 
-openComment.addEventListener('click', () => {
+const displayCommentSection = (element) => {
+  fetchData(element.id);
   appearModel.style.display = 'flex';
   deskModal.classList.add('active');
   Deskoverlay.classList.add('active');
-});
+};
 
-closeBtn.addEventListener('click', () => {
-  appearModel.style.display = 'none';
-  deskModal.classList.remove('active');
-  Deskoverlay.classList.remove('active');
-});
+const displayComments = () => {
+  const openComment = document.querySelectorAll('.comment-btn');
+  openComment.forEach((element) => {
+    element.addEventListener('click', () => displayCommentSection(element));
+  });
+};
 
-productImg.src=photo;
+export default displayComments;

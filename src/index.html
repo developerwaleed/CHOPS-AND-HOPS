@@ -3,10 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Capstone</title>
   </head>
   <body>
     <main>
+      <!-- header -->
       <header>
         <nav class="main-navbar">
           <div class="list-logo">
@@ -20,53 +28,18 @@
         </nav>
       </header>
 
+      <!-- main-page -->
 
+      <section class="grid-div"></section>
 
-
-      <!-- Comment pop up Start -->   
+      <!-- Comment pop up Start -->
       <section class="comment-modal" id="comment-modal">
-        <button type="button" class="close-btn" id="closebtn">
-          &times;
-        </button>
-        <div class="product-info">
-          <div class="product-image"><img id="product-img" alt="" width="300"></div>
-          <div class="title"><h2>Pizza</h2></div>
-          <div class="product-desc">
-            <span>Category: Vegetarian</span>
-            <span>Area: india</span>
-            <span>Tags: Spicy,Bun,Calorific</span>
-            <span>Link to Recipe : YouTube</span>
-          </div>
-        </div>
-        <div class="comments">
-          <div class="comment-title">
-            <h3>Comments (2) </h3>
-          </div>
-          <div class="fetch-comments">
-            <p>03/11/2021 alex: i'd love to buy it!</p><br>
-            <p>03/11/2021 alex: i'd love to buy it!</p><br>
-            <p>03/11/2021 alex: i'd love to buy it!</p><br>
-          </div>
-        </div>
-        <div class="add-comment">
-          <div class="form-title">
-            <h3>Add a comment </h3>
-          </div>
-          <form id="add-comment-form" action="./">
-            <input type="text" placeholder="Your Name" />
-            <textarea
-              id="textBox"
-              name="textBox"
-              maxlength="200"
-              placeholder="Your insights"
-            ></textarea>
-            <button type="submit">Comment</button>
-          </form>
-        </div>
-      </section>
+       <!-- Fetching data from JS -->
+      </section> 
       <div id="overlay"></div>
       <!-- Comment pop up END-->
 
+      <!-- footer -->
       <footer>
         <p>Created by Safar&Waleed under cc license</p>
       </footer>

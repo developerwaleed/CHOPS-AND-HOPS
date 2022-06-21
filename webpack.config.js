@@ -5,9 +5,10 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    filename: 'main.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: '[name][ext]',
+    clean: true,
   },
   devServer: {
     static: './dist',
@@ -17,7 +18,7 @@ module.exports = {
       template: './src/index.html',
     }),
   ],
-  
+
   module: {
     rules: [
       {
@@ -30,9 +31,9 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env']
-          }
-        }
+            presets: ['@babel/preset-env'],
+          },
+        },
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -40,11 +41,7 @@ module.exports = {
       },
     ],
   },
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
-  },
+
   optimization: {
     runtimeChunk: 'single',
   },
