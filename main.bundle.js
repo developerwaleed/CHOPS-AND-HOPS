@@ -15,7 +15,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*{\\r\\n    margin: 0;\\r\\n    padding: 0;\\r\\n    font-family: 'Noto Sans', sans-serif;\\r\\n    list-style-type: none;\\r\\n    text-decoration: none;\\r\\n}\\r\\n\\r\\n.main-navbar {\\r\\n    padding: 20px;\\r\\n    display: flex;\\r\\n    justify-content: space-around;\\r\\n    align-items: center;\\r\\n    border-bottom: 1px black solid;\\r\\n}\\r\\n\\r\\n.nav-bar {\\r\\n    font-size: 20px;\\r\\n    display: flex;\\r\\n    justify-content: space-between;\\r\\n    align-items: center;\\r\\n    width: 20vw;\\r\\n}\\r\\n\\r\\n\\r\\nfooter {\\r\\n    font-size: 20px;\\r\\n    padding: 30px;\\r\\n    border-top: 1px solid black;\\r\\n    position: absolute;\\r\\n    bottom: 0;\\r\\n    width: 95vw;\\r\\n}\\r\\n\\r\\n.grid-div {\\r\\n    border: 5px green solid;\\r\\n    display: grid;\\r\\n}\\r\\n\\r\\nimg {\\r\\n    border: 2px red solid;\\r\\n    height: 100px;\\r\\n    width: 100px;\\r\\n}\\r\\n\\r\\ndiv i {\\r\\n    border: 2px red solid;\\r\\n    height: 25px;\\r\\n    width: 25px;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-setup/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*{\\r\\n    margin: 0;\\r\\n    padding: 0;\\r\\n    font-family: 'Noto Sans', sans-serif;\\r\\n    list-style-type: none;\\r\\n    text-decoration: none;\\r\\n}\\r\\n\\r\\n.main-navbar {\\r\\n    padding: 20px;\\r\\n    display: flex;\\r\\n    justify-content: space-around;\\r\\n    align-items: center;\\r\\n    border-bottom: 1px black solid;\\r\\n}\\r\\n\\r\\n.nav-bar {\\r\\n    font-size: 20px;\\r\\n    display: flex;\\r\\n    justify-content: space-between;\\r\\n    align-items: center;\\r\\n    width: 20vw;\\r\\n}\\r\\n\\r\\n\\r\\n/* footer {\\r\\n    font-size: 20px;\\r\\n    padding: 30px;\\r\\n    border-top: 1px solid black;\\r\\n    position: absolute;\\r\\n    bottom: 0;\\r\\n    width: 95vw;\\r\\n    z-index: 2;\\r\\n    background-color: white;\\r\\n} */\\r\\n\\r\\n.grid-div {\\r\\n    border: 4px green solid;\\r\\n    display: grid;\\r\\n    grid-template-columns: auto auto auto;\\r\\n    justify-content: space-around;\\r\\n    justify-items: center;\\r\\n    gap: 50px;\\r\\n}\\r\\n\\r\\n.grid-item {\\r\\n    gap: 10px;\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n}\\r\\n\\r\\nimg {\\r\\n    border: 2px red solid;\\r\\n    height: 200px;\\r\\n    width: 250px;\\r\\n}\\r\\n\\r\\ndiv i {\\r\\n    height: 25px;\\r\\n    width: 25px;\\r\\n}\\r\\n\\r\\n.heart {\\r\\n    border: 2px red solid;\\r\\n    display: flex;\\r\\n    align-items: baseline;\\r\\n    justify-content: space-between;\\r\\n    align-content: space-between;\\r\\n    font-size: 20px;\\r\\n}\\r\\n\\r\\n.likes p {\\r\\n    border: 2px red solid;\\r\\n    display: flex;\\r\\n    justify-content: flex-end;\\r\\n    align-items: center;\\r\\n    align-content: center;\\r\\n    font-size: 20px;\\r\\n}\\r\\n\\r\\nbutton {\\r\\n    background-color: white;\\r\\n    height: 40px;\\r\\n    width: 100px;\\r\\n    border-radius: 5px;\\r\\n    display: flex;\\r\\n    align-items: center;\\r\\n    justify-content: center;\\r\\n    align-content: center;\\r\\n    font-size: 17px;\\r\\n}\\r\\n\\r\\n.button {\\r\\n    display: flex;\\r\\n    align-items: center;\\r\\n    justify-content: flex-end;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-setup/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -109,13 +109,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/fetchitems.js":
+/*!***************************!*\
+  !*** ./src/fetchitems.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\r\n\r\n// const fetchItems = () => {\r\n//     console.log('inside');\r\n//   fetch('www.themealdb.com/api/json/v1/1/search.php?f=a')\r\n//     .then(response => response.json())\r\n//     .then(data => {\r\n//         console.log(data);\r\n//         console.log(response);\r\n//     })\r\n//     console.log(\"page reloaded\")\r\n// }\r\n\r\nconst fetchItems = async () => {\r\n    const response = await fetch(\r\n      'https://www.themealdb.com/api/json/v1/1/filter.php?a=indian',\r\n    );\r\n    if(!response.ok)\r\n    {\r\n        throw new Error(`something weng wrong: ${response.status}`);\r\n    }\r\n    console.log('response=',response.ok);\r\n    const result = await response.json();\r\n    console.log('result=', result);\r\n    console.log('result=', result.meals[0].idMeal);\r\n    console.log('result=', result.meals[0].strMeal);\r\n    console.log('result=', result.meals[0].strMealThumb);\r\n    return result.fetchItems;\r\n  };\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fetchItems);\r\n\r\n\n\n//# sourceURL=webpack://webpack-setup/./src/fetchitems.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _food_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./food.jpg */ \"./src/food.jpg\");\n\r\n\r\n\r\ndocument.getElementById('food').src = _food_jpg__WEBPACK_IMPORTED_MODULE_1__;\r\n\n\n//# sourceURL=webpack://webpack-setup/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _fetchitems__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fetchitems */ \"./src/fetchitems.js\");\n/* harmony import */ var _food_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./food.jpg */ \"./src/food.jpg\");\n/* harmony import */ var _food1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./food1.jpg */ \"./src/food1.jpg\");\n/* harmony import */ var _food2_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./food2.jpg */ \"./src/food2.jpg\");\n/* harmony import */ var _food3_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./food3.jpg */ \"./src/food3.jpg\");\n/* harmony import */ var _food4_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./food4.jpg */ \"./src/food4.jpg\");\n/* harmony import */ var _food5_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./food5.jpg */ \"./src/food5.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\ndocument.querySelector('.food').src = _food_jpg__WEBPACK_IMPORTED_MODULE_2__;\r\ndocument.querySelector('.food1').src = _food1_jpg__WEBPACK_IMPORTED_MODULE_3__;\r\ndocument.querySelector('.food2').src = _food2_jpg__WEBPACK_IMPORTED_MODULE_4__;\r\ndocument.querySelector('.food3').src = _food3_jpg__WEBPACK_IMPORTED_MODULE_5__;\r\n\r\ndocument.querySelector('.food4').src = _food4_jpg__WEBPACK_IMPORTED_MODULE_6__;\r\ndocument.querySelector('.food5').src = _food5_jpg__WEBPACK_IMPORTED_MODULE_7__;\r\n\r\n\r\n\r\n// window.addEventListener('load', async () => {\r\n//     fetchItems(await fetchItems());\r\n//   });\r\n\r\n// window.addEventListener('load', fetchItems);\r\nwindow.onload = (0,_fetchitems__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n\n\n//# sourceURL=webpack://webpack-setup/./src/index.js?");
 
 /***/ }),
 
@@ -126,6 +136,56 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"0ca7527d03dca64b42ca.jpg\";\n\n//# sourceURL=webpack://webpack-setup/./src/food.jpg?");
+
+/***/ }),
+
+/***/ "./src/food1.jpg":
+/*!***********************!*\
+  !*** ./src/food1.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"44d45d2af6f0aa4f7471.jpg\";\n\n//# sourceURL=webpack://webpack-setup/./src/food1.jpg?");
+
+/***/ }),
+
+/***/ "./src/food2.jpg":
+/*!***********************!*\
+  !*** ./src/food2.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ef0eee7c3ed5d0155e88.jpg\";\n\n//# sourceURL=webpack://webpack-setup/./src/food2.jpg?");
+
+/***/ }),
+
+/***/ "./src/food3.jpg":
+/*!***********************!*\
+  !*** ./src/food3.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5714c463a2ccd418b4eb.jpg\";\n\n//# sourceURL=webpack://webpack-setup/./src/food3.jpg?");
+
+/***/ }),
+
+/***/ "./src/food4.jpg":
+/*!***********************!*\
+  !*** ./src/food4.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"11c1474f50a3f736bc6e.jpg\";\n\n//# sourceURL=webpack://webpack-setup/./src/food4.jpg?");
+
+/***/ }),
+
+/***/ "./src/food5.jpg":
+/*!***********************!*\
+  !*** ./src/food5.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a9075d88bb6a09749189.jpg\";\n\n//# sourceURL=webpack://webpack-setup/./src/food5.jpg?");
 
 /***/ })
 
