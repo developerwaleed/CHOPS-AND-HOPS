@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Capstone</title>
-  </head>
+  <script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
   <body>
     <main>
       <header>
@@ -24,34 +24,22 @@
 
 
       <!-- Comment pop up Start -->   
+      <div class="btn">
+        <button id="open-comment-modal">Hello</button>
+
       <section class="comment-modal" id="comment-modal">
         <button type="button" class="close-btn" id="closebtn">
           &times;
         </button>
         <div class="product-info">
-          <div class="product-image"><img id="product-img" alt="" width="300"></div>
-          <div class="title"><h2>Pizza</h2></div>
-          <div class="product-desc">
-            <span>Category: Vegetarian</span>
-            <span>Area: india</span>
-            <span>Tags: Spicy,Bun,Calorific</span>
-            <span>Link to Recipe : YouTube</span>
-          </div>
+          <div class="image"><img id="product-img" alt=""></div>
+          <div class="title"></div>
+          <div class="product-desc"></div>
         </div>
         <div class="comments">
-          <div class="comment-title">
-            <h3>Comments (2) </h3>
-          </div>
-          <div class="fetch-comments">
-            <p>03/11/2021 alex: i'd love to buy it!</p><br>
-            <p>03/11/2021 alex: i'd love to buy it!</p><br>
-            <p>03/11/2021 alex: i'd love to buy it!</p><br>
-          </div>
+          <div class="fetch-comments"></div>
         </div>
         <div class="add-comment">
-          <div class="form-title">
-            <h3>Add a comment </h3>
-          </div>
           <form id="add-comment-form" action="./">
             <input type="text" placeholder="Your Name" />
             <textarea
@@ -60,7 +48,6 @@
               maxlength="200"
               placeholder="Your insights"
             ></textarea>
-            <button type="submit">Comment</button>
           </form>
         </div>
       </section>

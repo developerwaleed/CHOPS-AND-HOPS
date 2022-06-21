@@ -1,34 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Sans', sans-serif;
-    list-style-type: none;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .main-navbar {
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .nav-bar {
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 20vw;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
 }
 
-
 footer {
-    font-size: 20px;
-    padding: 30px;
-    border-top: 1px solid black;
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
+  font-size: 20px;
+  padding: 30px;
+  border-top: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+/* Comment modal */
+
+#add-comment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#add-comment-form > * {
+  align-self: flex-start;
+}
+
+.comment-modal {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 90vw;
+  height: 85vh;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 10;
+  padding: 10px 15px;
+  overflow-y: scroll;
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+}
+
+.comment-modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#closebtn {
+  cursor: pointer;
+  background: #ebecf0;
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #67798e;
+  align-self: flex-end;
+}
+
+#overlay {
+  position: fixed;
+  background-color: white;
+  transition: 200ms ease-in-out;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 9;
+}
+
+#overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.title {
+  text-align: center;
+}
+
+.product-desc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+  column-gap: 200px;
+  row-gap: 20px;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+}
+
+.product-info {
+  align-self: center;
+}
+
+.comments {
+  align-self: center;
+}
+
+.fetch-comments {
+  padding: 15px;
+}
+
+.comment-title {
+  text-align: center;
+}
+
+.add-comment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+}
+
+.add-comment > *{
+  row-gap: 15px;
 }
