@@ -46,6 +46,7 @@ const renderData = (element) => {
   const deskModal = document.getElementById('comment-modal');
   const Deskoverlay = document.getElementById('overlay');
   const closeBtn = document.getElementById('closebtn');
+
   closeBtn.addEventListener('click', () => {
     appearModel.style.display = 'none';
     deskModal.classList.remove('active');
