@@ -1,13 +1,9 @@
-import _ from 'lodash';
 import './style.css';
+import fetchItems from './js/fetchitems.js';
+import sendLikes from './js/likes.js';
 
-function component() {
-    const element = document.createElement('div');
-  
-    // Loadash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+// const url = "https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/WyIYgphl1NOYp2yAcm3L/likes";
+
+window.onload = fetchItems();
+
+window.onload = sendLikes();
