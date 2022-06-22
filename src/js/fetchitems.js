@@ -6,7 +6,7 @@ const fetchItems = async () => {
     'https://www.themealdb.com/api/json/v1/1/filter.php?a=indian',
   );
   if (!response.ok) {
-    throw new Error(`something weng wrong: ${response.status}`);
+    throw new Error(`something went wrong: ${response.status}`);
   }
   const result = await response.json();
   display(result.meals);
