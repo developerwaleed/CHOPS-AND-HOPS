@@ -1,18 +1,19 @@
+import displayLikes from './displayLikes.js';
 
 const sendLikes = async () => {
     let likes;
-    let itemId;
+    // let itemId;
     try {
         const responsed = await fetch(
             'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/WyIYgphl1NOYp2yAcm3L/likes',
             );
-        likes = await response.json();
-        itemId = data.result;
-        console.log(responsed);
+        likes = await responsed.json();
+        
+        displayLikes(likes);
       } catch (e) {
         console.log(`Error: ${e}`);
       }
-      
+      return likes;
 }
 
 export default sendLikes;
