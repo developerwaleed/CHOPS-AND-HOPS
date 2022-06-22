@@ -206,3 +206,7 @@ button {
   align-items: center;
   justify-content: flex-end;
 }
+
+#message-div {
+  color: green;
+}

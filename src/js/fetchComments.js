@@ -7,14 +7,14 @@ const fetchComments = async (id) => {
     throw new Error(`something weng wrong: ${response.status}`);
   }
   const result = await response.json();
-  const commentContainer = document.getElementsByClassName('fetch-comments');
+  const commentContainer = document.querySelector('.fetch-comments');
   // eslint-disable-next-line no-unused-vars
-  let comments;
+  let comments = '';
   result.forEach((element) => {
     comments += `<p>${element.creation_date} ${element.username} ${element.comment}</p><br>`;
   });
 
-  commentContainer.innerHTML = 'comments';
+  commentContainer.innerHTML = comments;
   return result;
 };
 
