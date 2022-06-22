@@ -1,4 +1,5 @@
 import display from './displayItems.js';
+import displayComments from './commentSection.js';
 
 const fetchItems = async () => {
   const response = await fetch(
@@ -9,6 +10,7 @@ const fetchItems = async () => {
   }
   const result = await response.json();
   display(result.meals);
+  displayComments();
   return result;
 };
 

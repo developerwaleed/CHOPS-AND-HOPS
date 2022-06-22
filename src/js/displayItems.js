@@ -16,11 +16,10 @@ const display = (str) => {
             <p>6 likes</p>
           </div>
           <div class="button">
-            <button>Comments</button>
+            <button class="comment-btn" id="${item.idMeal}">Comments</button>
           </div>
       </div>`;
   });
-
   gridDiv.innerHTML = grid;
 };
 
