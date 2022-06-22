@@ -1,4 +1,5 @@
 import sendLikes from './likes.js';
+import postLikes from './postLikes.js';
 
 const gridDiv = document.querySelector('.grid-div');
 gridDiv.innerHTML = '';
@@ -24,6 +25,7 @@ const display = (str) => {
   });
   gridDiv.innerHTML = grid;
   sendLikes();
+  postLikes();
 };
 
 export default display;
