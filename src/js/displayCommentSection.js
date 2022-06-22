@@ -1,3 +1,5 @@
+import postComment from './postComments.js';
+
 const renderData = (element) => {
   const container = document.getElementById('comment-modal');
   container.innerHTML = `<button type="button" class="close-btn" id="closebtn">&times;</button>
@@ -18,12 +20,7 @@ const renderData = (element) => {
       <h3>Comments (2)</h3>
     </div>
     <div class="fetch-comments">
-      <p>03/11/2021 alex: i'd love to buy it!</p>
-      <br />
-      <p>03/11/2021 alex: i'd love to buy it!</p>
-      <br />
-      <p>03/11/2021 alex: i'd love to buy it!</p>
-      <br />
+      
     </div>
   </div>
   <div class="add-comment">
@@ -31,26 +28,41 @@ const renderData = (element) => {
       <h3>Add a comment</h3>
     </div>
     <form id="add-comment-form" action="./">
-      <input type="text" placeholder="Your Name" />
+      <input type="text" placeholder="Your Name" id="username"/>
       <textarea
-        id="textBox"
+        id="comment"
         name="textBox"
         maxlength="200"
         placeholder="Your insights"
       ></textarea>
-      <button type="submit">Comment</button>
+      <div id="message-div">
+    </div>
+      <button type="submit" class="${element.meals[0].idMeal}" id="submitBtn">Comment</button>
     </form>
+    
   </div>
   </section>`;
   const appearModel = document.getElementById('comment-modal');
   const deskModal = document.getElementById('comment-modal');
   const Deskoverlay = document.getElementById('overlay');
   const closeBtn = document.getElementById('closebtn');
+  const submitBtn = document.getElementById('submitBtn');
+  const username = document.getElementById('username');
+  const comment = document.getElementById('comment');
+  const commentForm = document.getElementById('add-comment-form');
+  const statusMessage = document.getElementById('message-div');
 
   closeBtn.addEventListener('click', () => {
     appearModel.style.display = 'none';
     deskModal.classList.remove('active');
     Deskoverlay.classList.remove('active');
+  });
+
+  submitBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    postComment(submitBtn.classList[0], username.value, comment.value);
+    commentForm.reset();
+    statusMessage.innerHTML = 'You comment has been posted! <br>Please refresh the page to see changes';
   });
 };
 
