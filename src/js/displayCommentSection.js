@@ -17,7 +17,7 @@ const renderData = (element) => {
   </div>
   <div class="comments">
     <div class="comment-title">
-      <h3>Comments (2)</h3>
+      <h3>Comments (<span id="comment-count">0</span>)</h3>
     </div>
     <div class="fetch-comments">
       

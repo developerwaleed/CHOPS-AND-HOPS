@@ -1,4 +1,6 @@
 // import renderData from './displayCommentSection.js';
+import counter from './commentCounter.js';
+
 const fetchComments = async (id) => {
   const response = await fetch(
     `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/WyIYgphl1NOYp2yAcm3L/comments?item_id=${id}`,
@@ -8,8 +10,8 @@ const fetchComments = async (id) => {
   }
   const result = await response.json();
   const commentContainer = document.querySelector('.fetch-comments');
-  // eslint-disable-next-line no-unused-vars
   let comments = '';
+  counter(result);
   result.forEach((element) => {
     comments += `<p>${element.creation_date} ${element.username} ${element.comment}</p><br>`;
   });
