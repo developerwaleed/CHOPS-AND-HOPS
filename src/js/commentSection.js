@@ -24,16 +24,13 @@ const registerCommentBtns = () => {
   const heartIcon = document.querySelectorAll('.heart');
   // console.log(heartIcon);
 
-  heartIcon.forEach(element => {
-      element.addEventListener('click', () => {
-       let currentLikeId = element.children[1].getAttribute('id');
+  heartIcon.forEach((element) => {
+    element.addEventListener('click', () => {
+      const currentLikeId = element.children[1].getAttribute('id');
       //  console.log(element);
-       postLikes(currentLikeId, element);
-      })
-  })
-
+      postLikes(currentLikeId, element);
+    });
+  });
 };
-
-
 
 export default registerCommentBtns;

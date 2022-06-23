@@ -7,7 +7,6 @@ gridDiv.innerHTML = '';
 let grid = '';
 
 const display = (str) => {
-
   str.forEach((item) => {
     grid += `<div class="grid-item">
           <div>
@@ -36,8 +35,6 @@ const display = (str) => {
   //     // e.preventDefault();
   //     console.log("you clicked like button");
   //   })
-
 };
 
 export default display;
-

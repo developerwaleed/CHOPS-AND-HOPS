@@ -9,7 +9,6 @@ const sendLikes = async () => {
     likes = await responsed.json();
 
     displayLikes(likes);
-
   } catch (e) {
     console.log(`Error: ${e}`);
   }
