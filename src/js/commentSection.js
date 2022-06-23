@@ -1,5 +1,7 @@
 import fetchData from './getDataFromId.js';
 import fetchComments from './fetchComments.js';
+import postLikes from './postLikes.js';
+// import sendLikes from '/likes.js';
 
 const appearModel = document.getElementById('comment-modal');
 const deskModal = document.getElementById('comment-modal');
@@ -18,6 +20,20 @@ const registerCommentBtns = () => {
   openComment.forEach((element) => {
     element.addEventListener('click', () => displayCommentSection(element));
   });
+
+  const heartIcon = document.querySelectorAll('.heart');
+  // console.log(heartIcon);
+
+  heartIcon.forEach(element => {
+      element.addEventListener('click', () => {
+       let currentLikeId = element.children[1].getAttribute('id');
+      //  console.log(element);
+       postLikes(currentLikeId, element);
+      })
+  })
+
 };
+
+
 
 export default registerCommentBtns;
