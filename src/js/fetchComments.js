@@ -1,4 +1,4 @@
-// import renderData from './displayCommentSection.js';
+
 import counter from './commentCounter.js';
 
 const fetchComments = async (id) => {
@@ -12,7 +12,6 @@ const fetchComments = async (id) => {
   const commentContainer = document.querySelector('.fetch-comments');
   let comments = '';
   counter(result);
-  // console.log(Object.keys(result).length);
   result.forEach((element) => {
     comments += `<p>${element.creation_date} ${element.username} ${element.comment}</p><br>`;
   });

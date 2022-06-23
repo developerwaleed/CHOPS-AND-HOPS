@@ -1,6 +1,6 @@
-// import clickHeart from './clickHeart.js';
+
 import sendLikes from './likes.js';
-// import postLikes from './postLikes.js';
+
 
 const gridDiv = document.querySelector('.grid-div');
 gridDiv.innerHTML = '';
