@@ -1,4 +1,6 @@
+// import clickHeart from './clickHeart.js';
 import sendLikes from './likes.js';
+// import postLikes from './postLikes.js';
 
 const gridDiv = document.querySelector('.grid-div');
 gridDiv.innerHTML = '';
@@ -12,7 +14,7 @@ const display = (str) => {
           </div>
           <div class="heart">
             <p>${item.strMeal}</p>
-            <i class="fa fa-regular fa-heart"></i>
+            <div id="${item.idMeal}"><i class="fa fa-regular fa-heart"></i></div>
           </div>
           <div class="likes" id="like-container">
             <p>0 likes</p>
@@ -23,6 +25,7 @@ const display = (str) => {
       </div>`;
   });
   gridDiv.innerHTML = grid;
+
   sendLikes();
 };
 
