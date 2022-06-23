@@ -27,14 +27,6 @@ const display = (str) => {
   gridDiv.innerHTML = grid;
 
   sendLikes();
-  // postLikes();
-  // clickHeart();
-  // const heartIcon = document.getElementById('heart-icon');
-
-  //   heartIcon.addEventListener('click',() => {
-  //     // e.preventDefault();
-  //     console.log("you clicked like button");
-  //   })
 };
 
 export default display;

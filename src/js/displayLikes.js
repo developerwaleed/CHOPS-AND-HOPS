@@ -4,12 +4,12 @@ const displayLikes = (involvementArr) => {
 
   meals.forEach((element) => {
     const mealId = Number(element.children[3].children[0].id);
-    const conatiner = element.children[2];
+    const container = element.children[2];
     // console.log(conatiner);
-    const index = involvementArr.findLastIndex((like) => like.item_id === mealId);
+    const index = involvementArr.findLastIndex((like) => like.item_id == mealId);
     // console.log(index);
     /* eslint-disable no-unused-vars */
-    const msg = index >= 0 ? conatiner.innerHTML = `<p>${involvementArr[index].likes} likes</p>` : '0 Likes';
+    const msg = index >= 0 ? container.innerHTML = `<p>${involvementArr[index].likes} likes</p>` : '0 Likes';
     /* eslint-disable no-unused-vars */
   });
 
