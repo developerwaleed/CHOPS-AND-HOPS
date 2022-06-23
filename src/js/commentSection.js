@@ -36,12 +36,10 @@ const registerCommentBtns = () => {
   //   const dishCount = document.getElementById('dish-count');
   //   dishCount.innerHTML = arr.length;
   //   console.log(arr.length);
-  
+
   //   return arr.length;
 
   // }
-
-
 };
 
 export default registerCommentBtns;

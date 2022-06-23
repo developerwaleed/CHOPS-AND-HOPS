@@ -17,7 +17,6 @@ const fetchItems = async () => {
   //   dishes(element)
   // });
 
-
   display(result.meals);
   registerCommentBtns();
 
