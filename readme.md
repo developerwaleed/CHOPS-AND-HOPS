@@ -1,42 +1,37 @@
-# TODO List
+# JavsScript Capstone
 
 ## Welcome! 👋
 
-> This Website Allows you to creat your game and add your players score.
+> This Website is all about meals there origin and how to make them 😋
 
-ScreenShot 1                                      |  ScreenShot 2                                  |
-:------------------------------------------------:|:-----------------------------------------------:
-<img src="./Screenshots/Screenshot%201.png" height="600" width="280"> | <img src="./Screenshots/Screenshot%202.png" height="600" width="280">
-
-<p align="left"> <img 
-    width="550"
-    height="300"
-    src='./images/ScreenShots/Screenshot 7.png'</p>
+ScreenShot 1                                      |
+:------------------------------------------------:|
+<img src="./Screenshots/Screenshot%201.png" height="600" width=auto> | 
+ScreenShot 2                                      |
+:------------------------------------------------:|
+<img src="./Screenshots/Screenshot%202.png" height="600" width="auto">
 
                               
 ## Built With ✔️
 
 - HTML 😄
-- SASS 🔥
+- Css 🔥
 - JavaScript ES6 😋
 - WebPack 😉
+- AAA test pattern (jest).
 
 ## Functionalites 😄
 
-- Can Add New task. 😄
-- Can edit Task by hovering on the field. 😋
-- Can Delete Task by hovering on the field. 🙌
-- Can clear completed Task.🥳
-- Can switch between dark and light mode. 🌑
-- Bottom NavBar can be used to filter the tasks. 😉
-- Accessibility options are used. 🔥🔥
-- User can resort the list by using drag and drop functionality. 🔥🥳🥳
+- Can Add new comments. 😄
+- Can like the meals. ✔️
+- Can see the number of meals on the home screen. 🙌
+- can see the number of likes and comments on a specific meal. ✅
 
     
 
 ## Live Demo ✔️
 
-[Live Demo Link](https://caasperr.github.io/Interactive-TODOLIST/)
+[Live Demo Link]()
 
 
 ## Getting Started 🙌
@@ -53,9 +48,9 @@ To get a local copy up and running follow these simple example steps.
 Clone the repository and change the directory to portfolio
 
 ``` 
-  `$ git clone 'https://github.com/caasperr/Interactive-TODOLIST.git'`
+  `$ git clone 'https://github.com/caasperr/JavaScript-Capstone.git'`
 
-  `$ cd Interactive-TODOLIST.git`
+  `$ cd JavaScript-Capstone`
 
 ```
 
@@ -81,44 +76,19 @@ Run
 | 👤 Name | Github | Twitter | LinkedIn |
 |------|--------|---------|----------|
 |Waleed Amjad|[@caasperr](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)|[@Waleed Amjad](https://www.linkedin.com/in/waleed-amjad-51930014a/)|
-
-
+|Safar Ali|[@caasperr](https://github.com/safar1212)|[@Safar Ali](https://twitter.com/SafarAli999)|[@Safar Ali](https://www.linkedin.com/in/safar-ali999/)|
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to [Frontend Mentor](https://www.frontendmentor.io/) for giving me this project to work on
-
-
-## 📝 License
-
-This project is licensed to Waleed.
-
-## Authors
-
-👤 **Waleed Amjad**
-
-| 👤 Name | Github | Twitter | LinkedIn |
-|------|--------|---------|----------|
-|Waleed Amjad|[@caasper](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)|[Waleed Amjad](https://www.linkedin.com/in/waleed-amjad-51930014a/)||
-
-
-## Acknowledgments
-
-- Hat tip to MicroVerse for the Template and Task.
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
+- Hat tip to Microverse for giving me this project to work on.
 
 ## 📝 License
 
