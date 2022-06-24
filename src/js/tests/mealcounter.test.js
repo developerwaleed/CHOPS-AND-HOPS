@@ -3,21 +3,18 @@ const dishes = require('./mealcounter.js');
 describe('Testing the comments counter', () => {
   const emptyList = {};
 
-  let mealList = 
-    {
-      itemName: 'Biryani',
-      mainIng: 'rice and meat',
-      count: 'one meal',
-    };
+  const mealList = {
+    itemName: 'Biryani',
+    mainIng: 'rice and meat',
+    count: 'one meal',
+  };
 
-    let mealList2 = {
-        itemName: 'Polao',
-      mainIng: 'rice and meat',
-      count: 'second meal',
-      origin: 'Afg',
-    };
-    
-    
+  const mealList2 = {
+    itemName: 'Polao',
+    mainIng: 'rice and meat',
+    count: 'second meal',
+    origin: 'Afg',
+  };
 
   const meals = dishes(mealList);
   const empty = dishes(emptyList);

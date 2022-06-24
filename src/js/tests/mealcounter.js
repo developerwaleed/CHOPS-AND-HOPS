@@ -1,7 +1,7 @@
 const dishes = (arr) => {
-    const objLength = Object.keys(arr).length;
+  const objLength = Object.keys(arr).length;
 
-    return objLength;
-}
+  return objLength;
+};
 
 module.exports = dishes;

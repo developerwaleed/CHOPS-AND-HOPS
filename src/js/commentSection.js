@@ -2,7 +2,6 @@ import fetchData from './getDataFromId.js';
 import fetchComments from './fetchComments.js';
 import postLikes from './postLikes.js';
 
-
 const appearModel = document.getElementById('comment-modal');
 const deskModal = document.getElementById('comment-modal');
 const Deskoverlay = document.getElementById('overlay');
@@ -22,18 +21,14 @@ const registerCommentBtns = () => {
   });
 
   const heartIcon = document.querySelectorAll('.heart');
- 
+
   heartIcon.forEach((element) => {
     element.addEventListener('click', () => {
       const currentLikeId = element.children[1].getAttribute('id');
-      
+
       postLikes(currentLikeId, element);
     });
   });
-
- 
 };
 
 export default registerCommentBtns;
-
-

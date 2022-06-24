@@ -1,4 +1,3 @@
-
 import counter from './commentCounter.js';
 
 const fetchComments = async (id) => {
