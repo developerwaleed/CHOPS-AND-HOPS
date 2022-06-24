@@ -9,7 +9,7 @@ ScreenShot 1                                      |
 <img src="./Screenshots/Screenshot%201.png" height="600" width=auto> | 
 ScreenShot 2                                      |
 :------------------------------------------------:|
-<img src="./Screenshots/Screenshot%202.png" height="600" width="auto">
+<img src="./Screenshots/Screenshot%202.png" width= "1200">
 
                               
 ## Built With ✔️
