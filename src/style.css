@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+main {
+  /* background-color: rgb(184, 255, 255); */
+}
+
 .main-navbar {
   padding: 20px;
   display: flex;
@@ -146,7 +150,8 @@ footer {
 }
 
 .grid-div {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 90px;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
@@ -155,6 +160,9 @@ footer {
 }
 
 .grid-item {
+  /* background-color: rgb(231, 176, 23); */
+  border-radius: 15px;
+  /* padding: 5px; */
   gap: 10px;
   display: flex;
   flex-direction: column;
@@ -183,6 +191,7 @@ div i {
 }
 
 .likes p {
+  /* margin-right: 5px; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -195,6 +204,8 @@ button {
   height: 40px;
   width: 100px;
   border-radius: 5px;
+  /* margin-right: 5px; */
+  /* margin-bottom: 5px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,4 +222,8 @@ button {
 
 #message-div {
   color: green;
+}
+
+div i:hover {
+  font-size: 25px;
 }

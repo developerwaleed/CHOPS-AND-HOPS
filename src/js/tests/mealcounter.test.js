@@ -27,7 +27,7 @@ describe('Testing the comments counter', () => {
     expect(meals).toBe(3);
   });
 
-  test('The object is empty (0)', () => {
+  test('The lenght of object is (0)', () => {
     expect(empty).toBe(0);
   });
   test('The length of object is 4', () => {
