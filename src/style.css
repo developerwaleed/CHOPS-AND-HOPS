@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.main-navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px black solid;
+}
+
+.nav-bar {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+}
+
+/* Comment modal */
+
+.add-comment > * {
+  row-gap: 15px;
+}
+
+#add-comment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#add-comment-form > * {
+  align-self: flex-start;
+}
+
+.comment-modal {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 90vw;
+  height: 85vh;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 10;
+  padding: 10px 15px;
+  overflow-y: scroll;
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+}
+
+.comment-modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#closebtn {
+  cursor: pointer;
+  background: #ebecf0;
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #67798e;
+  align-self: flex-end;
+}
+
+#overlay {
+  position: fixed;
+  background-color: white;
+  transition: 200ms ease-in-out;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 9;
+}
+
+#overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.title {
+  text-align: center;
+}
+
+.product-desc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+  column-gap: 200px;
+  row-gap: 20px;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+}
+
+.product-info {
+  align-self: center;
+}
+
+.comments {
+  align-self: center;
+}
+
+.fetch-comments {
+  padding: 15px;
+}
+
+.comment-title {
+  text-align: center;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+}
+
+footer {
+  font-size: 20px;
+  padding: 10px;
+  border-top: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  z-index: 2;
+  background-color: white;
+}
+
+.grid-div {
+  margin-top: 60px;
+  margin-bottom: 90px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  justify-items: center;
+  gap: 50px;
+}
+
+.grid-item {
+  border-radius: 15px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+div i {
+  height: 25px;
+  width: 25px;
+  color: red;
+  cursor: pointer;
+}
+
+.heart {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  align-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.likes p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  font-size: 20px;
+}
+
+button {
+  background-color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#message-div {
+  color: green;
+}
