@@ -27,7 +27,10 @@ ScreenShot 2                                      |
 - Can see the number of meals on the home screen. 🙌
 - can see the number of likes and comments on a specific meal. ✅
 
-    
+## Video explanation for the project ✔️
+
+[Video Link](https://drive.google.com/file/d/1QuKNGLzjiLmeGpef6kUZJC2mAxapluiM/view?usp=sharing)
+
 
 ## Live Demo ✔️
 
