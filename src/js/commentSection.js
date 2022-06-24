@@ -1,7 +1,6 @@
 import fetchData from './getDataFromId.js';
 import fetchComments from './fetchComments.js';
 import postLikes from './postLikes.js';
-// import sendLikes from '/likes.js';
 
 const appearModel = document.getElementById('comment-modal');
 const deskModal = document.getElementById('comment-modal');
@@ -22,26 +21,14 @@ const registerCommentBtns = () => {
   });
 
   const heartIcon = document.querySelectorAll('.heart');
-  // console.log(heartIcon);
+
   heartIcon.forEach((element) => {
     element.addEventListener('click', () => {
       const currentLikeId = element.children[1].getAttribute('id');
-      //  console.log(element);
+
       postLikes(currentLikeId, element);
     });
   });
-
-  // const dishes =  (arr) => {
-  //        arr.length;
-  //   const dishCount = document.getElementById('dish-count');
-  //   dishCount.innerHTML = arr.length;
-  //   console.log(arr.length);
-
-  //   return arr.length;
-
-  // }
 };
 
 export default registerCommentBtns;
-
-// export {dishes};

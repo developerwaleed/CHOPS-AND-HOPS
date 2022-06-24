@@ -10,7 +10,6 @@ const postLikes = async (mealId, likeButton) => {
     },
   );
   const result = resp.text;
-  // console.log(result);
 
   const responsed = await fetch(
     'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/WyIYgphl1NOYp2yAcm3L/likes',

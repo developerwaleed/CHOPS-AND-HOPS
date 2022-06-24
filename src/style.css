@@ -146,7 +146,8 @@ footer {
 }
 
 .grid-div {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 90px;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
@@ -155,6 +156,7 @@ footer {
 }
 
 .grid-item {
+  border-radius: 15px;
   gap: 10px;
   display: flex;
   flex-direction: column;
