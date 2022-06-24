@@ -31,7 +31,7 @@ ScreenShot 2                                      |
 
 ## Live Demo ✔️
 
-[Live Demo Link]()
+[Live Demo Link](https://caasperr.github.io/JavaScript-Capstone/)
 
 
 ## Getting Started 🙌
