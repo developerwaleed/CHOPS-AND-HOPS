@@ -2,7 +2,7 @@
 
 ## Welcome! 👋
 
-> This Website is all about meals there origin and how to make them 😋
+> This Website is all about meals there origin and how to make them using Meal DB API. Checkout the live version of the website through the link below 😋
 
 ScreenShot 1                                      |
 :------------------------------------------------:|
@@ -69,9 +69,6 @@ Run
 ``` 
   `$ start local server
 ```
-
-### Deployment
-- [Visit Application Homepage](http://localhost:8080)
 
 
 ### Authors
