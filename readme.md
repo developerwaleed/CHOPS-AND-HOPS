@@ -92,4 +92,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-All rights reserved.
+This project is owned by Safar Ali and Waleed Amjad.
