@@ -27,14 +27,14 @@ const renderData = (element) => {
     <div class="form-title">
       <h3>Add a comment</h3>
     </div>
-    <form id="add-comment-form" action="./">
-      <input type="text" placeholder="Your Name" id="username"/>
-      <textarea
-        id="comment"
-        name="textBox"
-        maxlength="200"
-        placeholder="Your insights"
-      ></textarea>
+    <form id="add-comment-form" class="add-comment-form" action="./">
+    <input type="input" class="form__field" placeholder="Your Name" name="name" id="username" required/>
+    <label for="name" class="form__label">Name</label>
+
+    <div class="add-comment-form">
+      <input type="input" class="form__field" placeholder="Your insights" name="textBox" id="comment" required/>
+      <label for="name" class="form__label">Your insights</label>
+    </div>
       <div id="message-div">
     </div>
       <button type="submit" class="${element.meals[0].idMeal}" id="submitBtn">Comment</button>
@@ -62,7 +62,8 @@ const renderData = (element) => {
     e.preventDefault();
     postComment(submitBtn.classList[0], username.value, comment.value);
     commentForm.reset();
-    statusMessage.innerHTML = 'You comment has been posted! <br>Please refresh the page to see changes';
+    statusMessage.innerHTML =
+      'You comment has been posted! <br>Please refresh the page to see changes';
   });
 };
 
