@@ -1,4 +1,4 @@
-import sendLikes from './likes.js';
+import sendLikes from '../likes/likes.js';
 
 const gridDiv = document.querySelector('.grid-div');
 gridDiv.innerHTML = '';
