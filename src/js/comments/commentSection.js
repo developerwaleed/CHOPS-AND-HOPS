@@ -1,6 +1,6 @@
-import fetchData from './getDataFromId.js';
+import fetchData from '../home/getDataFromId.js';
 import fetchComments from './fetchComments.js';
-import postLikes from './postLikes.js';
+import postLikes from '../likes/postLikes.js';
 
 const appearModel = document.getElementById('comment-modal');
 const deskModal = document.getElementById('comment-modal');

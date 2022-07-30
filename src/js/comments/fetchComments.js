@@ -12,7 +12,18 @@ const fetchComments = async (id) => {
   let comments = '';
   counter(result);
   result.forEach((element) => {
-    comments += `<p>${element.creation_date} ${element.username} ${element.comment}</p><br>`;
+    comments += `<div class="comment-card">
+    <div class="comment-info">
+      <div class="avtar"><i class="fa-solid fa-user"></i></div>
+      <div class="comment-name"><p>${element.username}</p></div>
+      <div class="comment-date"><p>${element.creation_date}</p></div>
+    </div>
+    <div class="comment">
+      <p>
+      ${element.comment}
+      </p>
+    </div>
+  </div>`;
   });
 
   commentContainer.innerHTML = comments;

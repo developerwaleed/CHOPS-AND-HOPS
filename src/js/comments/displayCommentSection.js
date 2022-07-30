@@ -2,39 +2,50 @@ import postComment from './postComments.js';
 
 const renderData = (element) => {
   const container = document.getElementById('comment-modal');
-  container.innerHTML = `<button type="button" class="close-btn" id="closebtn">&times;</button>
+  container.innerHTML = `<div id="closebtn">
+  <a href="#">
+    <span class="left">
+      <span class="circle-left"></span>
+      <span class="circle-right"></span>
+    </span>
+    <span class="right">
+      <span class="circle-left"></span>
+      <span class="circle-right"></span>
+    </span>
+  </a>
+</div>
   <div class="product-info">
     <div class="product-image">
       <img src="${element.meals[0].strMealThumb}" alt="" width="300" />
     </div>
-    <div class="title"><h2>${element.meals[0].strMeal}</h2></div>
+    <div class="title gradient-Text"><h2>${element.meals[0].strMeal}</h2></div>
     <div class="product-desc">
-      <span>Category: ${element.meals[0].strCategory}</span>
-      <span>Area: ${element.meals[0].strArea}</span>
-      <span>Tags: ${element.meals[0].strTags}</span>
-      <span>Link to Recipe : <a href="${element.meals[0].strYoutube}">YouTube</a></span>
+      <div>Category:&nbsp;&nbsp;&nbsp;<span class="meal-details">${element.meals[0].strCategory}</span></div>
+      <div>Area:&nbsp;&nbsp;&nbsp;<span class="meal-details">${element.meals[0].strArea}</span></div>
+      <div>Tags:&nbsp;&nbsp;&nbsp;<span class="meal-details">${element.meals[0].strTags}</span></div>
+      <div>Link to Recipe:&nbsp;&nbsp;&nbsp;<a class="meal-details" target="_blank" href="${element.meals[0].strYoutube}">YouTube</a></div>
     </div>
   </div>
   <div class="comments">
-    <div class="comment-title">
-      <h3>Comments (<span id="comment-count">0</span>)</h3>
+    <div class="comment-title gradient-Text">
+      <h2>Comments (<span id="comment-count">0</span>)</h2>
     </div>
     <div class="fetch-comments">
       
     </div>
   </div>
   <div class="add-comment">
-    <div class="form-title">
-      <h3>Add a comment</h3>
+    <div class="form-title gradient-Text">
+      <h2>Add a comment</h2>
     </div>
-    <form id="add-comment-form" action="./">
-      <input type="text" placeholder="Your Name" id="username"/>
-      <textarea
-        id="comment"
-        name="textBox"
-        maxlength="200"
-        placeholder="Your insights"
-      ></textarea>
+    <form id="add-comment-form" class="add-comment-form" action="./">
+    <input type="input" class="form__field" placeholder="Your Name" name="name" id="username" required/>
+    <label for="name" class="form__label">Name</label>
+
+    <div class="add-comment-form">
+      <input type="input" class="form__field" placeholder="Your insights" name="textBox" id="comment" required/>
+      <label for="name" class="form__label">Your insights</label>
+    </div>
       <div id="message-div">
     </div>
       <button type="submit" class="${element.meals[0].idMeal}" id="submitBtn">Comment</button>
