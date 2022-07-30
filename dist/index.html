@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -10,21 +12,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Capstone</title>
-  <script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/Favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <title>CHOPS AND HOPS</title>
+  <link rel="icon" href="/webpack-demo/assets/favicon.ico"><script defer src="/webpack-demo/runtime.bundle.js"></script><script defer src="/webpack-demo/main.bundle.js"></script></head>
   <body>
     <main>
       <!-- header -->
+
       <header>
-        <nav class="main-navbar">
-          <div class="list-logo">
-            <h1 id>LOGO</h1>
-          </div>
-          <ul class="nav-bar">
-            <li class="list-item"><a href="">All (<span id="dish-count">0</span>)</a></li>
-            <li class="list-item"><a href="">Fast Food</a></li>
-            <li class="list-item"><a href="">Slow Food</a></li>
-          </ul>
+        <nav class="blend">
+          <div class="logo"><img id="logo"></div>
+          <ul>
+            <li><a href="">All(<span id="dish-count">0</span>)</a></li>
+            <li><a href="">Fast Food</a></li>
+            <li><a href="">Slow Food</a></li>
         </nav>
       </header>
 
@@ -33,16 +38,11 @@
       <section class="grid-div"></section>
 
       <!-- Comment pop up Start -->
-      <section class="comment-modal" id="comment-modal">
+      <section class="comment-modal border full" id="comment-modal">
        <!-- Fetching data from JS -->
       </section> 
       <div id="overlay"></div>
       <!-- Comment pop up END-->
-
-      <!-- footer -->
-      <footer>
-        <p>Created by Safar&Waleed under cc license</p>
-      </footer>
     </main>
   </body>
 </html>

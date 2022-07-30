@@ -1,5 +1,5 @@
 import display from './displayItems.js';
-import registerCommentBtns from './commentSection.js';
+import registerCommentBtns from '../comments/commentSection.js';
 import dishes from './dishescounter.js';
 
 const fetchItems = async () => {

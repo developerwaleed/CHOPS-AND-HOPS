@@ -1,4 +1,4 @@
-import renderData from './displayCommentSection.js';
+import renderData from '../comments/displayCommentSection.js';
 
 const fetchData = async (id) => {
   const response = await fetch(
