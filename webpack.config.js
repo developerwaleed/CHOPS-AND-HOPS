@@ -10,7 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: '[name][ext]',
     clean: true,
-    publicPath: '/webpack-demo/',
+    publicPath: './',
   },
   devServer: {
     static: './dist',
