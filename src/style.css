@@ -103,6 +103,15 @@ nav ul li a::before {
   transition: all 0.5s;
 }
 
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
 nav ul li a:hover {
   color: #555;
 }
@@ -112,6 +121,10 @@ nav.blend ul li a {
   border-radius: 5px;
   overflow: hidden;
   z-index: 1;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
 }
 
 nav.blend ul li a:hover {
@@ -125,12 +138,13 @@ nav.blend ul li a::after {
   height: 100%;
   top: 0;
   bottom: 0;
-  background-image: linear-gradient(
-    45deg,
-    #ff512f 0%,
-    #f09819 51%,
-    #ff512f 100%
-  );
+  background-image:
+    linear-gradient(
+      45deg,
+      #ff512f 0%,
+      #f09819 51%,
+      #ff512f 100%
+    );
   transition: all 0.5s;
   margin: auto;
   content: '.';
@@ -172,19 +186,6 @@ nav.blend ul li a:hover::before {
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
 }
 
 .sidenav .closebtn {
@@ -283,12 +284,13 @@ nav.blend ul li a:hover::before {
 
 .gradient-Text {
   font-size: 40px;
-  background-image: linear-gradient(
-    45deg,
-    #ff512f 0%,
-    #f09819 51%,
-    #ff512f 100%
-  );
+  background-image:
+    linear-gradient(
+      45deg,
+      #ff512f 0%,
+      #f09819 51%,
+      #ff512f 100%
+    );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -403,12 +405,13 @@ img {
 }
 
 .heart p {
-  background-image: linear-gradient(
-    45deg,
-    #ff512f 0%,
-    #f09819 51%,
-    #ff512f 100%
-  );
+  background-image:
+    linear-gradient(
+      45deg,
+      #ff512f 0%,
+      #f09819 51%,
+      #ff512f 100%
+    );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: 80%;
@@ -438,12 +441,13 @@ button {
   border: 0;
   font-weight: 400;
   box-shadow: 0 0 14px -7px #f09819;
-  background-image: linear-gradient(
-    45deg,
-    #ff512f 0%,
-    #f09819 51%,
-    #ff512f 100%
-  );
+  background-image:
+    linear-gradient(
+      45deg,
+      #ff512f 0%,
+      #f09819 51%,
+      #ff512f 100%
+    );
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
@@ -686,12 +690,21 @@ button:active {
   .NavMobile {
     display: flex;
   }
+
+  .product-desc {
+    grid-template-columns: auto;
+  }
+
+  .fetch-comments {
+    grid-template-columns: auto;
+  }
 }
 
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
   }
+
   .sidenav a {
     font-size: 18px;
   }
