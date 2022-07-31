@@ -1,15 +1,12 @@
-# JavsScript Capstone
+# CHOPS AND HOPS
+
+![App Screenshot](./src/assets/mock.png)
 
 ## Welcome! 👋
 
-> This Website is all about meals there origin and how to make them using Meal DB API. Checkout the live version of the website through the link below 😋
+> This Chops and Hops is a web application that fetches the data from API and show it to the user.
 
-ScreenShot 1                                      |
-:------------------------------------------------:|
-<img src="./Screenshots/Screenshot%201.png" height="600" width=auto> | 
-ScreenShot 2                                      |
-:------------------------------------------------:|
-<img src="./Screenshots/Screenshot%202.png" width= "1200">
+
 
                               
 ## Built With ✔️
@@ -34,7 +31,8 @@ ScreenShot 2                                      |
 
 ## Live Demo ✔️
 
-[Live Demo Link](https://caasperr.github.io/JavaScript-Capstone/)
+[Live Demo Link 1](https://gregarious-melba-786499.netlify.app/)
+[Live Demo Link 2](https://developerwaleed.github.io/CHOPS-AND-HOPS/)
 
 
 ## Getting Started 🙌
