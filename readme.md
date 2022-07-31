@@ -31,8 +31,8 @@
 
 ## Live Demo ✔️
 
-[Live Demo Link 1](https://gregarious-melba-786499.netlify.app/)
-[Live Demo Link 2](https://developerwaleed.github.io/CHOPS-AND-HOPS/)
+- [Live Demo Link 1](https://gregarious-melba-786499.netlify.app/)
+- [Live Demo Link 2](https://developerwaleed.github.io/CHOPS-AND-HOPS/)
 
 
 ## Getting Started 🙌
