@@ -1,93 +1,211 @@
-# CHOPS AND HOPS
+<a name="readme-top"></a>
 
-![App Screenshot](./src/assets/mock.png)
+<!-- TABLE OF CONTENTS -->
 
-## Welcome! 👋
+# 📗 Table of Contents
 
-> This Chops and Hops is a web application that fetches the data from API and show it to the user.
+<details>
+  <summary>Click to view contents</summary>
+  <ol>
+    <li>
+      <a href="#about-project">📖 About the Project</a>
+        <ul>
+          <li><a href="#video">📹 Video</a></li>
+          <li>
+            <a href="#built-with">🛠 Built With</a>
+            <ul>
+              <li><a href="#tech-stack">Tech Stack</a></li>
+              <li><a href="#key-features">Key Features</a></li>
+            </ul>
+          </li>
+          <li><a href="#live-demo">🚀 Live Demo</a></li>
+        </ul>
+    </li>
+    <li>
+      <a href="#getting-started">💻 Getting Started</a>
+      <ul>
+        <li><a href="#setup">Setup</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#run-tests">Run tests</a></li>
+        <li><a href="#deployment">Deployment</a></li>
+      </ul>
+    </li>
+    <li><a href="#authors">👥 Authors</a></li>
+    <li><a href="#future-features">🔭 Future Features</a></li>
+    <li><a href="#contributing">🤝 Contributing</a></li>
+    <li><a href="#support">⭐️ Show your support</a></li>
+    <li><a href="#acknowledgements">🙏 Acknowledgements</a></li>
+    <li><a href="#faq">❓ FAQ</a></li>
+    <li><a href="#license">📝 License</a></li>
+  </ol>
+</details>
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 CHOPS AND HOPS <a name="about-project"></a>
+
+**CHOPS AND HOPS** is an elegant website that retrieves savory dishes from a restaurant API and presents them to the user. It also enables users to comment and like the dishes.
+
+<div align="center"><img src='./src/assets/mock.png' width="700"></div>
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+- Javascript
+- WebPack
+- AAA test Pattern(Jest)
+
+<details>
+<summary>Client</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://webpack.js.org/">WebPack</a></li>
+    <li><a href="https://jestjs.io/">Jest</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+Using this website you can:
+
+- Add comments on the dish.
+- Like the Dish.
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-                              
-## Built With ✔️
+<!-- LIVE DEMO -->
 
-- HTML 😄
-- Css 🔥
-- JavaScript ES6 😋
-- WebPack 😉
-- AAA test pattern (jest).
+## 🚀 Live Demo <a name="live-demo"></a>
+[Click Here for live Version!](https://gregarious-melba-786499.netlify.app/)
 
-## Functionalites 😄
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Can Add new comments. 😄
-- Can like the meals. ✔️
-- Can see the number of meals on the home screen. 🙌
-- can see the number of likes and comments on a specific meal. ✅
+<!-- GETTING STARTED -->
 
-## Video explanation for the project ✔️
+## 💻 Getting Started <a name="getting-started"></a>
 
-[Video Link](https://drive.google.com/file/d/1QuKNGLzjiLmeGpef6kUZJC2mAxapluiM/view?usp=sharing)
-
-
-## Live Demo ✔️
-
-- [Live Demo Link 1](https://gregarious-melba-786499.netlify.app/)
-- [Live Demo Link 2](https://developerwaleed.github.io/CHOPS-AND-HOPS/)
-
-
-## Getting Started 🙌
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-```
-  node js
-  npm
 
-```
+- NPM package manager
+
 ### Setup
-Clone the repository and change the directory to portfolio
 
-``` 
-  `$ git clone 'https://github.com/caasperr/JavaScript-Capstone.git'`
+#### Github
+- Enter this url: [https://github.com/developerwaleed/CHOPS-AND-HOPS](https://github.com/developerwaleed/CHOPS-AND-HOPS) in your web browser.
+- Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+- Select the download Zip option from drop-down menu.
+- Once the download is complete you will be able to access my project locally.
 
-  `$ cd JavaScript-Capstone`
+#### Local (Terminal)
 
+```sh
+  git clone https://github.com/developerwaleed/CHOPS-AND-HOPS.git
+  cd CHOPS-AND-HOPS
 ```
 
 ### Install
-Install all project dependencies by running the command below
- 
-``` 
- ` $ npm install`
+
+Install dependencies and gems in this project with:
+
+```sh
+  cd CHOPS-AND-HOPS
+  npm install
 ```
+
+
 ### Usage
 
-Run
-``` 
-  `$ start local server
+To run the project, execute the following command:
+
+- Run `npm run start` or `npm start` to start a development server.
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+npm run test
 ```
 
+### Deployment
 
-### Authors
+You can deploy this project using:
 
+- Github Pages
+- Netlify
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+## 👥 Authors <a name="author"></a>
 | 👤 Name | Github | Twitter | LinkedIn |
 |------|--------|---------|----------|
-|Waleed Amjad|[@caasperr](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)|[@Waleed Amjad](https://www.linkedin.com/in/waleed-amjad-51930014a/)|
-|Safar Ali|[@caasperr](https://github.com/safar1212)|[@Safar Ali](https://twitter.com/SafarAli999)|[@Safar Ali](https://www.linkedin.com/in/safar-ali999/)|
+|Waleed Amjad|[@caasperr](https://github.com/developerwaleed)|[@developerwaleed](https://twitter.com/developerwaleed)|[@developerwaleed](https://www.linkedin.com/in/developerwaleed/)|
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Contributions, issues, and feature requests are welcome!
+<!-- FUTURE FEATURES -->
 
-## Show your support
+## 🔭 Future Features <a name="future-features"></a>
 
-Give a ⭐️ if you like this project!
+- Currently none.
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Hat tip to Microverse for giving me this project to work on.
+<!-- CONTRIBUTING -->
 
-## 📝 License
+## 🤝 Contributing <a name="contributing"></a>
 
-This project is owned by Safar Ali and Waleed Amjad.
+Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue, feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project. Don't forget to give it a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- A big thanks to [@microverseinc](https://github.com/microverseinc) for the project idea, guidance and inspiration.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ  -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **What inspired me to create this project?**
+
+  - The inspiration for this project came from microverse – a software development bootcamp where you work with teammates remotely on different projects.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
